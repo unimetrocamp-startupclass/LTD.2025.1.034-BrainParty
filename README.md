@@ -63,7 +63,7 @@ Esperamos que esse interesse criado pelo jogo torne mais fácil a tarefa de mant
 
 ## Escopo
 
-O escopo e a portabilidade inicial do projeto, serão para a plataforma Windows. Planejamos, futuramente, criar Modos de jogo mais avançados alterando a dificuldade do jogo, e também fazer um Port do jogo para Mobile (Celulares), são objetivos em uma possível continuação do projeto através dos semestres seguintes.
+O escopo e a portabilidade inicial do projeto, serão para a plataforma Windows. Planejamos, futuramente, criar Modos de jogo mais avançados alterando a dificuldade do jogo, e fazer um Port do jogo para Mobile (Celulares), são objetivos em uma possível continuação do projeto através dos semestres seguintes.
 
 ---
 
