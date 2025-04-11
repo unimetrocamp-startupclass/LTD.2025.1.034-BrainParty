@@ -76,6 +76,7 @@ Os requisitos levantados foram:
 * UI do menu inicial limpa e objetiva, poucos botões, para fácil inicialização do jogo.
 * Imagens das cartas, figuras educativas, exemplos: (Arvores, Frutas, Veiculos, Objetos do dia a dia, etc.)
 * Mecânica simples de interação, através de toques com os elementos do jogo.
+* Lógica das cartas, para verificação da correta.
 
 ---
 
