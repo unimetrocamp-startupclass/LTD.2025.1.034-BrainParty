@@ -1,4 +1,4 @@
-# BrainParty
+# **BrainParty**
 
 ## Documentação do Sistema
 
