@@ -1,2 +1,2 @@
 # BrainParty
-Jogo da Memória com palavras em Português/Inglês, com objetivo educacional para crianças.
+Jogo da Memória com palavras em Português/Inglês, para ensinar crianças.
