@@ -82,8 +82,7 @@ Os requisitos levantados foram:
 
 ## Cronograma
 
-
-
+![Cronograma Trabalho-1](https://github.com/user-attachments/assets/60cc055a-0fb0-4f85-887e-0971f2a47821)
 
 
 
