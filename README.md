@@ -4,22 +4,22 @@
 
 ### Sumário:
 
-1. ​​Dados do Cliente
-2. ​Equipe de Desenvolvimento
-3. Introdução
-4. Objetivo
-5. Escopo
-6. Backlogs do Produto
-7. Cronograma
-8. Materiais e Métodos
-9. Resultados
-10. Conclusão
-11. Homologação do MVP junto ao cliente
-12. Divulgação
-13. Carta de Apresentação
-14. Carta de Autorização
-15. Relato individual do processo
-16. Cronograma
+* Dados do Cliente
+* Equipe de Desenvolvimento
+1. Introdução
+2. Objetivo
+3. Escopo
+4. Backlogs do Produto
+5. Cronograma
+6. Materiais e Métodos
+- Resultados
+- Conclusão
+- Homologação do MVP junto ao cliente
+- Divulgação
+- Carta de Apresentação
+- Carta de Autorização
+- Relato individual do processo
+- Cronograma
 
 ---
 
@@ -50,25 +50,25 @@ Título do Projeto: BrainParty, um jogo da memória educativo para crianças mem
 
 ---
 
-## Introdução
+## 1. Introdução
 
 Nosso projeto visa ajudar a prender a atenção das crianças que frequentam as aulas de reforço do projeto “O Menor Da Casa”, ensinando-as de forma lúdica palavras em inglês, matéria frequentemente negligenciada no sistema público de ensino apesar de sua grande importância.
 
 ---
 
-## Objetivo
+## 2. Objetivo
 
 Esperamos que esse interesse criado pelo jogo torne mais fácil a tarefa de manter as crianças interessadas na matéria, aumentando a taxa de retenção do ensino. E auxiliando de forma dinâmica e intuitiva, o ensinamento de palavras em Inglês.
 
 ---
 
-## Escopo
+## 3. Escopo
 
 O escopo e a portabilidade inicial do projeto, serão para a plataforma Windows. Planejamos, futuramente, criar Modos de jogo mais avançados alterando a dificuldade do jogo, e fazer um Port do jogo para Mobile (Celulares), são objetivos em uma possível continuação do projeto através dos semestres seguintes.
 
 ---
 
-## Backlogs do Produto
+## 4. Backlogs do Produto
 
 Os requisitos levantados foram:
 
@@ -81,10 +81,14 @@ Os requisitos levantados foram:
 
 ---
 
-## Cronograma
+## 5. Cronograma
 
 ![Cronograma Trabalho-1](https://github.com/user-attachments/assets/60cc055a-0fb0-4f85-887e-0971f2a47821)
 
+
+## 6. Materiais e Métodos
+
+### A) Modelagem do sistema:
 ```mermaid
 classDiagram
     class Carta {
@@ -148,6 +152,27 @@ end
     UC7 --> UC6
 ```
 
+### B) Tecnologias utilizadas:
+
+#### Engine (Motor Gráfico): **Unity**
+
+#### Bibiliotecas utilizadas:
+
+**using System.Collections.Generic;**
+> Permite usar coleções genéricas como List<T>, Dictionary<TKey, TValue>, etc.
+- Útil para armazenar listas e mapas de objetos com tipos definidos.
+
+**using System.Collections;**
+> Permite usar coleções não genéricas como ArrayList e corrotinas com IEnumerator.
+- Necessário para usar StartCoroutine() e loops com yield.
+
+**using UnityEngine;**
+> Importa a base do motor Unity, incluindo classes como GameObject, Transform, MonoBehaviour, etc.
+- Essencial em praticamente todos os scripts Unity.
+
+**using UnityEngine.UIElements;**
+> Permite usar o sistema de UI moderno da Unity, chamado UI Toolkit.
+- Usado para criar interfaces com VisualElement, Button, Label, etc.
 
 
 
