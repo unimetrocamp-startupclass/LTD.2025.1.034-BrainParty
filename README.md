@@ -85,10 +85,68 @@ Os requisitos levantados foram:
 
 ![Cronograma Trabalho-1](https://github.com/user-attachments/assets/60cc055a-0fb0-4f85-887e-0971f2a47821)
 
+```mermaid
+classDiagram
+    class Carta {
+        - Image iconeImagem
+        - Sprite esconderIconeSprite
+        - Sprite iconeSprite
+        - bool selecionado
+        - CartaControle controlador
+        + CartaClicada()
+        + SetIconeSprite(sp: Sprite)
+        + Mostrar()
+        + Esconder()
+    }
 
+    class CartaControle {
+        - Carta cartaPrefab
+        - Transform gridTransform
+        - Sprite[] sprites
+        - List~Sprite~ spritePares
+        - Carta primeiraSelecionada
+        - Carta segundaSelecionada
+        + Start()
+        - PrepararSprites()
+        - CriarCartas()
+        + SetSelecionado(carta: Carta)
+        - IEnumerator ChecarPar(a: Carta, b: Carta)
+        - EmbaralharSprites(listaSprite: List~Sprite~)
+    }
 
+    CartaControle "1" o-- "*" Carta : instancia >
+    Carta "1" --> "1" CartaControle : controlador
+```
 
+```mermaid
+graph LR
 
+%% Agrupando os casos de uso de Carta.cs
+subgraph Carta.cs
+    Jogador((Jogador))
+    UC1([Iniciar Jogo])
+    UC2([Preparar Cartas])
+    UC3([Criar Cartas])
+    UC4([Selecionar Carta])
+    UC5([Mostrar Carta])
+    UC6([Esconder Carta])
+    UC7([Verificar Par])
+end
+
+%% Agrupando as conexões feitas em CartaControle.cs
+subgraph CartaControle.cs
+    nota1["CartaControle.cs representa o fluxo de controle implementado em Carta.cs"]
+end
+
+%% Conexões (setas) feitas por CartaControle.cs
+    Jogador --> UC1
+    Jogador --> UC4
+    UC1 --> UC2
+    UC2 --> UC3
+    UC4 --> UC5
+    UC5 --> UC7
+    UC7 --> UC6
+```
 
 
 
