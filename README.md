@@ -174,15 +174,45 @@ end
 > Permite usar o sistema de UI moderno da Unity, chamado UI Toolkit.
 - Usado para criar interfaces com VisualElement, Button, Label, etc.
 
+**using PrimeTween;**
 
+> Biblioteca de animações simples e eficientes para Unity.
 
+- Usada para animar propriedades como rotação, escala, posição e cor com facilidade.
 
+- Permite criar sequências de animações encadeadas com comandos como Tween.Rotation, Tween.Delay e Sequence.Create().
 
+- Mais leve e intuitiva que sistemas como DOTween ou iTween, ideal para jogos 2D e interfaces rápidas.
 
+## 7. Resultados
 
+**Protótipo:**
+![image](https://github.com/user-attachments/assets/affb5ca8-4cec-4bce-824c-f5d501721e40)
 
+![image](https://github.com/user-attachments/assets/51f7db4e-9516-4512-a5c3-bb56a12c488c)
 
+**Códigos das principais funcionalidades:**
 
+![image](https://github.com/user-attachments/assets/cb604860-db32-4ba7-bf68-c169509730fc)
+
+![image](https://github.com/user-attachments/assets/3eeee235-dc92-40fb-8e70-8e19addb1060)
+
+![image](https://github.com/user-attachments/assets/566eb566-a813-4ecc-acfd-7daf537c27c1)
+
+![image](https://github.com/user-attachments/assets/b6457490-33fc-40ab-9b23-3ddc93db0d77)
+
+## 8. Conclusão
+
+**a. Impacto do sistema:**
+ - O sistema ainda não foi implementado porém é esperada um aumento no interesse 
+das crianças em aprender inglês de forma ativa, além do aprendizado passivo gerado pelo 
+jogo.
+
+**b. Melhorias Futuras:**
+- Maneiras diferentes de concluir objetivos 
+- Mais cartas 
+- Possiveis novos minigames
+- Versão mobile e/ou we
 
 
 
